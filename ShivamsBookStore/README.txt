@@ -73,3 +73,5 @@ Start Time 0841
 1046 > Added Project reference to main project.
 
 1048 > in DataAccess project added project reference to Models and utility.
+
+1050 > Added customers area to Areas.
