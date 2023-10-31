@@ -43,3 +43,5 @@ Start Time 0841
 1002 > Installed Identity.EntityFrameWorkCore.
 
 1003 > Changed ShivamsBookStore.Data to ShivamsBookStore.DataAccess.Data.
+
+1004 > Deleted Class1.cs file from all projects.
