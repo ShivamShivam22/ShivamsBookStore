@@ -83,3 +83,5 @@ Start Time 0841
 1101 > Edited the homecontroller.cs to explicity define that the controller is in the customer Area.
 
 1104 > Moved View > Home and modify the HomeController namespace.
+
+1125 > there was an error on the site (index not found) after seraching alot i realized i named "customer" folder as "customers" with a "s" so i removed and its working now.
