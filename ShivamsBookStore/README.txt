@@ -79,3 +79,5 @@ Start Time 0841
 1055 > changed the routes in Startup.cs like the one in the ScaffoldingReadMe.txt.
 
 1058 > Moved HomeController to the Area> Customer > Controller folder and deleted Data and Models.
+
+1101 > Edited the homecontroller.cs to explicity define that the controller is in the customer Area.
