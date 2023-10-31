@@ -39,3 +39,5 @@ Start Time 0841
 0950 > Installed Core.Relational and Core.sqlserver packages.
 
 0959 > deletd the migration folder.
+
+1002 > Installed Identity.EntityFrameWorkCore.
