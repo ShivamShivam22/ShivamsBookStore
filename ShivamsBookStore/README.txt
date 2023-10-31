@@ -17,3 +17,5 @@ Start Time 0841
 0851 > replaced the site.css file in the wwwroot > css.
 
 0852 > renamed the bootstrap.min.css to bootstrap.css in Shared > _Layout.cshtml.
+
+0854 > changed nav class from navbar-light to navbar-dark and bg-white to bg-primary.
