@@ -71,3 +71,5 @@ Start Time 0841
 1045 > modified the properties of the class.
 
 1046 > Added Project reference to main project.
+
+1048 > in DataAccess project added project reference to Models and utility.
