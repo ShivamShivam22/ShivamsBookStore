@@ -35,3 +35,5 @@ Start Time 0841
 0947 > Created 3 new projects in the application.
 
 0950 > Moved data folder into .DataAccess and deleted the original.
+
+0950 > Installed Core.Relational and Core.sqlserver packages.
