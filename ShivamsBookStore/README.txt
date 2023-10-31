@@ -19,3 +19,5 @@ Start Time 0841
 0852 > renamed the bootstrap.min.css to bootstrap.css in Shared > _Layout.cshtml.
 
 0854 > changed nav class from navbar-light to navbar-dark and bg-white to bg-primary.
+
+0855 > removed text-dark from _Layout.cshtml in Shared folder.
