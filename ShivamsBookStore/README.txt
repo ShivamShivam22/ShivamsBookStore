@@ -51,3 +51,5 @@ Start Time 0841
 1007 > Moved Models folder to ShivamsBooks.Models and deleted the original.
 
 1010 > Added Project referece - .DataAccess and .Models.
+
+1011 > Renamed Models folder to ViewModels.
