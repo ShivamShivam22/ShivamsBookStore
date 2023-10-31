@@ -9,3 +9,5 @@ Start Time 0841
 0841 > Created the README.txt file.
 
 0843 > removed options => options.SignIn.RequireConfirmedAccount = true from startup.cs.
+
+0846 > Added Breakpoints in HomeController.cs file in Controller folder at line 22 and 27 and tested the website, the breakpoints are working.
