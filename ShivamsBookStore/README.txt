@@ -55,3 +55,5 @@ Start Time 0841
 1011 > Renamed Models folder to ViewModels.
 
 1012 > Changed the ErrorViewModels.cs Namespace .Models.ViewModels.
+
+1014 > built the project.
