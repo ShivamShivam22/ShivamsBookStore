@@ -85,3 +85,5 @@ Start Time 0841
 1104 > Moved View > Home and modify the HomeController namespace.
 
 1125 > there was an error on the site (index not found) after seraching alot i realized i named "customer" folder as "customers" with a "s" so i removed and its working now.
+
+1128 > copied _ViewImport and _ViewStart to Customer Area.
