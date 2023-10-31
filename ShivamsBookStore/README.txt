@@ -41,3 +41,5 @@ Start Time 0841
 0959 > deletd the migration folder.
 
 1002 > Installed Identity.EntityFrameWorkCore.
+
+1003 > Changed ShivamsBookStore.Data to ShivamsBookStore.DataAccess.Data.
