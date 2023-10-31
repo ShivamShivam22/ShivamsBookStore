@@ -81,3 +81,5 @@ Start Time 0841
 1058 > Moved HomeController to the Area> Customer > Controller folder and deleted Data and Models.
 
 1101 > Edited the homecontroller.cs to explicity define that the controller is in the customer Area.
+
+1104 > Moved View > Home and modify the HomeController namespace.
