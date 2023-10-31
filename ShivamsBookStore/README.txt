@@ -67,3 +67,5 @@ Start Time 0841
 1036 > there was an error on homecontroller and its fixed with using statement.
 
 1043 > Created SD.cs class in utility project.
+
+1045 > modified the properties of the class.

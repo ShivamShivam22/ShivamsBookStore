@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ShivamsBooks.Utility
 {
-    class SD
+    public static class SD
     {
     }
 }
