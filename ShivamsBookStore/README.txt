@@ -13,3 +13,5 @@ Start Time 0841
 0846 > Added Breakpoints in HomeController.cs file in Controller folder at line 22 and 27 and tested the website, the breakpoints are working.
 
 0848 > Downloaded theme Bootstrap.cs and replaed with the the Current bootstrap file in wwwroot > lib > bootstrap > dist > css.
+
+0851 > replaced the site.css file in the wwwroot > css.
