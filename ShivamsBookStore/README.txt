@@ -77,3 +77,5 @@ Start Time 0841
 1050 > Added customers area to Areas.
 
 1055 > changed the routes in Startup.cs like the one in the ScaffoldingReadMe.txt.
+
+1058 > Moved HomeController to the Area> Customer > Controller folder and deleted Data and Models.
