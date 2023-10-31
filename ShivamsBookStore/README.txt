@@ -37,3 +37,5 @@ Start Time 0841
 0950 > Moved data folder into .DataAccess and deleted the original.
 
 0950 > Installed Core.Relational and Core.sqlserver packages.
+
+0959 > deletd the migration folder.
