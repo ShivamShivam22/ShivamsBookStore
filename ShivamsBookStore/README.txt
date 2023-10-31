@@ -91,3 +91,5 @@ Start Time 0841
 1131 > modified the _ViewStart.cshtml to refelect the new path.
 
 1134 > Added a new Admin area and added a proper view files and deleted the data and Models folder.
+
+1136 > Deleted the controller folder.
