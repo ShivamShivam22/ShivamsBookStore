@@ -59,3 +59,5 @@ Start Time 0841
 1014 > built the project.
 
 1027 > Modified Startup.cs service 'AddContext' with the using statement.
+
+1030 > ran the site to view error and removed the using statement.

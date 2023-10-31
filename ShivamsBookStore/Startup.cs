@@ -7,7 +7,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using ShivamsBookStore.Data;
 using ShivamsBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
