@@ -47,3 +47,5 @@ Start Time 0841
 1004 > Deleted Class1.cs file from all projects.
 
 1006 > Built the project.
+
+1007 > Moved Models folder to ShivamsBooks.Models and deleted the original.
