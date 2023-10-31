@@ -33,3 +33,5 @@ Start Time 0841
 0907 > Changed DropDown to Content Management and ran the website to see the changes.
 
 0947 > Created 3 new projects in the application.
+
+0950 > Moved data folder into .DataAccess and deleted the original.
