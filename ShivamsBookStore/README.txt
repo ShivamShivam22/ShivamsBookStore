@@ -57,3 +57,5 @@ Start Time 0841
 1012 > Changed the ErrorViewModels.cs Namespace .Models.ViewModels.
 
 1014 > built the project.
+
+1027 > Modified Startup.cs service 'AddContext' with the using statement.
