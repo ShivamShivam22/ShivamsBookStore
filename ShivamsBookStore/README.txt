@@ -49,3 +49,5 @@ Start Time 0841
 1006 > Built the project.
 
 1007 > Moved Models folder to ShivamsBooks.Models and deleted the original.
+
+1010 > Added Project referece - .DataAccess and .Models.
