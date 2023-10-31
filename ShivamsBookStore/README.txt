@@ -29,3 +29,5 @@ Start Time 0841
 0902 > Added additional stylesheet and js script from the css_js.txt file in the _Layout.cshtml file.
 
 0905 > Added a dropdown  in View/Shared/_Layout.cshtml file.
+
+0907 > Changed DropDown to Content Management and ran the website to see the changes.
