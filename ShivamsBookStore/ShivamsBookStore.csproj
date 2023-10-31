@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ShivamsBooks.DataAccess\ShivamsBooks.DataAccess.csproj" />
     <ProjectReference Include="..\ShivamsBooks.Models\ShivamsBooks.Models.csproj" />
+    <ProjectReference Include="..\ShivamsBooks.Utility\ShivamsBooks.Utility.csproj" />
   </ItemGroup>
 
 </Project>

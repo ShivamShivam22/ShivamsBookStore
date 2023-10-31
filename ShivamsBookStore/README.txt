@@ -69,3 +69,5 @@ Start Time 0841
 1043 > Created SD.cs class in utility project.
 
 1045 > modified the properties of the class.
+
+1046 > Added Project reference to main project.
