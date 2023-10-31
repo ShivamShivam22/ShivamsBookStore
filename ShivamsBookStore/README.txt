@@ -63,3 +63,5 @@ Start Time 0841
 1030 > ran the site to view error and removed the using statement.
 
 1032 > corrected default ErrorViewModel to the new .Models.ViewModels.ErrorViewModel.
+
+1036 > there was an error on homecontroller and its fixed with using statement.
