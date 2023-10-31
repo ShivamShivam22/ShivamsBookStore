@@ -23,3 +23,5 @@ Start Time 0841
 0855 > removed text-dark from _Layout.cshtml in Shared folder.
 
 0857 > Added additional properties to the footer class.
+
+0859 > removed reference to text-dark in _LoginPartial.cshtml file.
