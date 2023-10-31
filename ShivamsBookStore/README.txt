@@ -15,3 +15,5 @@ Start Time 0841
 0848 > Downloaded theme Bootstrap.cs and replaed with the the Current bootstrap file in wwwroot > lib > bootstrap > dist > css.
 
 0851 > replaced the site.css file in the wwwroot > css.
+
+0852 > renamed the bootstrap.min.css to bootstrap.css in Shared > _Layout.cshtml.
