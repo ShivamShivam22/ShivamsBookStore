@@ -31,3 +31,5 @@ Start Time 0841
 0905 > Added a dropdown  in View/Shared/_Layout.cshtml file.
 
 0907 > Changed DropDown to Content Management and ran the website to see the changes.
+
+0947 > Created 3 new projects in the application.
