@@ -75,3 +75,5 @@ Start Time 0841
 1048 > in DataAccess project added project reference to Models and utility.
 
 1050 > Added customers area to Areas.
+
+1055 > changed the routes in Startup.cs like the one in the ScaffoldingReadMe.txt.
