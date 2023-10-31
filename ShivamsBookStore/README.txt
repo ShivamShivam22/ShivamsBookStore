@@ -53,3 +53,5 @@ Start Time 0841
 1010 > Added Project referece - .DataAccess and .Models.
 
 1011 > Renamed Models folder to ViewModels.
+
+1012 > Changed the ErrorViewModels.cs Namespace .Models.ViewModels.
