@@ -45,3 +45,5 @@ Start Time 0841
 1003 > Changed ShivamsBookStore.Data to ShivamsBookStore.DataAccess.Data.
 
 1004 > Deleted Class1.cs file from all projects.
+
+1006 > Built the project.
