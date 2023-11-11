@@ -113,3 +113,5 @@ Date: 11/11/2023
 0311 > added a new class file in .Models and added a new table to the DB.
 
 0322 > added using console add-migration AddCategoryToDb.
+
+0323 > updated database.
