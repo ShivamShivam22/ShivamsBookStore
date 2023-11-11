@@ -115,3 +115,5 @@ Date: 11/11/2023
 0322 > added using console add-migration AddCategoryToDb.
 
 0323 > updated database.
+
+0408 > updated ApplicationDbContext.cs but the "Cateroy shows error".
