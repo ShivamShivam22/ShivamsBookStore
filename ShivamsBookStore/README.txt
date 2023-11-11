@@ -109,3 +109,5 @@ Date: 11/11/2023
 0233 > tried to update database but failed.
 
 0302 > Used the quick fix(That yellow ligh bulb thingy) and install the framework the error is fixed and the databse is updated.
+
+0311 > added a new class file in .Models and added a new table to the DB.
