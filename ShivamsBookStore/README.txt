@@ -101,3 +101,7 @@ Date: 11/11/2023
 0224 > Modified the database name and saved. 
 
 0229 > using NuGet Package Manager Console and added the migration.but the traget project doesnt match the migrations assembly.
+
+0232 > changed to the correct project and added migration again.
+
+0233 > Migration Name : 20231111193126_AddDefaultIdentityMigration.
