@@ -117,3 +117,5 @@ Date: 11/11/2023
 0323 > updated database.
 
 0408 > updated ApplicationDbContext.cs but the "Cateroy shows error".
+
+0412 > fixed it by 'using' statement.
