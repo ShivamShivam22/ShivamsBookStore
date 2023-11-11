@@ -93,3 +93,9 @@ Start Time 0841
 1134 > Added a new Admin area and added a proper view files and deleted the data and Models folder.
 
 1136 > Deleted the controller folder.
+
+PART 2 
+
+Date: 11/11/2023
+
+0224: Modified the database name and saved. 
