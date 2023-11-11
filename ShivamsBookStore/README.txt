@@ -98,4 +98,6 @@ PART 2
 
 Date: 11/11/2023
 
-0224: Modified the database name and saved. 
+0224 > Modified the database name and saved. 
+
+0229 > using NuGet Package Manager Console and added the migration.but the traget project doesnt match the migrations assembly.
