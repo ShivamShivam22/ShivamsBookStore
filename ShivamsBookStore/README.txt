@@ -123,3 +123,5 @@ Date: 11/11/2023
 0416 > updated the database.
 
 0840 > still having probelms with creating Category table.
+
+0920 > its fixed now had to delete the existing migration folder and add it again, now its working.
