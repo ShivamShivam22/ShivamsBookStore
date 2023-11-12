@@ -121,3 +121,5 @@ Date: 11/11/2023
 0412 > fixed it by 'using' statement.
 
 0416 > updated the database.
+
+0840 > still having probelms with creating Category table.
