@@ -1,10 +1,8 @@
-﻿using ShivamsBooks.Models;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using DocumentFormat.OpenXml.Drawing.Diagrams;
 
 namespace ShivamsBookStore.DataAccess.Data
 {
@@ -14,6 +12,5 @@ namespace ShivamsBookStore.DataAccess.Data
             : base(options)
         {
         }
-        public DbSet<Category> Categories { get; set; }
     }
 }
