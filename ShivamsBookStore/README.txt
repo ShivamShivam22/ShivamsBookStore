@@ -129,3 +129,5 @@ Date: 11/11/2023
 date : 11/13/2023
 
 0900 > added a folder name Repository in .DataAccess project and an another forlder IRepository inside the Repository folder. 
+
+0904 > added <Folder Include="Data\" /> in .dataAccess.csproj.
