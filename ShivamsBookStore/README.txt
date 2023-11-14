@@ -175,3 +175,5 @@ Date : 11/14/2023
 1118 > Added empty razor into category and modified it.
 
 1147 > added Category to dropdown. 
+
+1208 > added js file and icons.
