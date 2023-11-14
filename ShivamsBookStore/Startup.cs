@@ -7,6 +7,8 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using ShivamsBooks.DataAccess.Repository;
+using ShivamsBooks.DataAccess.Repository.IRepository;
 using ShivamsBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
@@ -35,6 +37,7 @@ namespace ShivamsBookStore
             // options => options.SignIn.ReqruireConfirmedAccount = true) 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 
