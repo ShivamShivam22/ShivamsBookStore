@@ -135,3 +135,5 @@ date : 11/13/2023
 0908 > added a new item of type interface to the folder and named it IRepository.cs.
 
 0921 > modified the IRepository.cs so it can be used on the Category class to do all the CRUD operations.
+
+0925 > added Repositoy.cs class in Repository folder.
