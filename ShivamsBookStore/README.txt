@@ -147,3 +147,5 @@ date : 11/13/2023
 1002 > modified CategoryRepository.
 
 1006 > modified ICategoryRepository.
+
+1013 > revied and mofied the error in CategoryRepository.cs 
