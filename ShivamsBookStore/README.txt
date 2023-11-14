@@ -145,3 +145,5 @@ date : 11/13/2023
 0946 > created individual repos for category and all potential models to be added in the future.
 
 1002 > modified CategoryRepository.
+
+1006 > modified ICategoryRepository.
