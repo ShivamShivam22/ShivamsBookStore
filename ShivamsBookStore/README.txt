@@ -163,3 +163,7 @@ date : 11/13/2023
 1141 > Added a new interface IUnitOfWork ot IRepository folder	and updated the code.
 
 1147 > modified the code.
+
+Date : 11/14/2023
+
+0949 > added controller folder in Areas/Admin and added empty mvc controller. 
