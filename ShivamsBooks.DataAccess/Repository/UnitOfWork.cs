@@ -23,6 +23,16 @@ namespace ShivamsBooks.DataAccess.Repository
 
         public ISP_Call SP_Call { get; private set; }
 
+        public void Dispose()
+        {
+            _db.Dispose();
+        }
+
+        public void Save()   // all changes will be saved when the save method is called at the 'parent' level 
+        {
+            _db.SaveChanges();
+        }
+
 
     }
 }
