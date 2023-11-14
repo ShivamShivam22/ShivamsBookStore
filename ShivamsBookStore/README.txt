@@ -139,3 +139,5 @@ date : 11/13/2023
 0925 > added Repositoy.cs class in Repository folder.
 
 0928 > included the using statement and fixed the error with Implement interface.
+
+0937 > modified the code to create the constructor and dependency injection (DI).
