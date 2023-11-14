@@ -151,3 +151,5 @@ date : 11/13/2023
 1013 > revied and mofied the error in CategoryRepository.cs 
 
 1031 > added a new interface in the Irepository folder ISP_CALL.cs and extended IDisposable and installed nuget package for dapper.
+
+1039 > and implement with a new class in the repository folder.
