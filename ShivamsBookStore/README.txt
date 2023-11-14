@@ -125,3 +125,7 @@ Date: 11/11/2023
 0840 > still having probelms with creating Category table.
 
 0920 > its fixed now had to delete the existing migration folder and add it again, now its working.
+
+date : 11/13/2023
+
+0900 > added a folder name Repository in .DataAccess project and an another forlder IRepository inside the Repository folder. 
