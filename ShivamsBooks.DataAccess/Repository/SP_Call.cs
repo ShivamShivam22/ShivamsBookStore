@@ -1,4 +1,5 @@
 ﻿using Dapper;
+using ShivamsBookStore.DataAccess.Data;
 using ShivamsBooks.DataAccess.Repository.IRepository;
 using System;
 using System.Collections.Generic;
