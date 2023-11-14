@@ -131,3 +131,5 @@ date : 11/13/2023
 0900 > added a folder name Repository in .DataAccess project and an another forlder IRepository inside the Repository folder. 
 
 0904 > added <Folder Include="Data\" /> in .dataAccess.csproj.
+
+0908 > added a new item of type interface to the folder and named it IRepository.cs.
