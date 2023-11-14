@@ -21,28 +21,50 @@ namespace ShivamsBookStore.Areas.Admin.Controllers
         {
             return View();
         }
-         public IActionResult Upsert(int? id) // action method for upsert
-        {
-            Category category = new Category(); // using ShivamsBooks.Models;
-            if (id == null)
+            // use HTTP POST to define the post-action method
+            [HttpPost]
+            [ValidateAntiForgeryToken]
+            public IActionResult Upsert(Category category)
             {
-                return View(category);
+                if (ModelState.IsValid)
+                {
+                    if (category.Id == 0)
+                    {
+                        _unitOfWork.Category.Add(category);
 
+                    }
+                    else
+                    {
+                        _unitOfWork.Category.Update(category);
+                    }
+                    _unitOfWork.Save();
+                    return RedirectToAction(nameof(Index));
+                }
+                return View(category);
             }
-            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
-            if ( category == null){
-                return NotFound();
+
+        
+
+            #region API CALLS
+            [HttpGet]
+            public IActionResult GetAll()
+            {
+                //return NotFound();
+                var allObj = _unitOfWork.Category.GetAll();
+                return Json(new { data = allObj });
             }
-            return View();
-        }
-        #region API CALLS
-        [HttpGet]
-        public IActionResult GetAll()
-        {
-            //return NotFound();
-            var allObj = _unitOfWork.Category.GetAll();
-            return Json(new { data = allObj });
-        }
-        #endregion
+        
+        public IActionResult Delete(int id)
+           {
+                var objFromDb = _unitOfWork.Category.Get(id);
+                if(objFromDb == null)
+                {
+                    return Json(new { success = false, message = "Error white deleting" });
+                }
+                _unitOfWork.Category.Remove(objFromDb);
+                _unitOfWork.Save();
+                return Json(new { success = true, message = "Delete successful" });
+         }
+            #endregion 
     }
 }
