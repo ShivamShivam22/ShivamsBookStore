@@ -143,3 +143,5 @@ date : 11/13/2023
 0937 > modified the code to create the constructor and dependency injection (DI).
 
 0946 > created individual repos for category and all potential models to be added in the future.
+
+1002 > modified CategoryRepository.
