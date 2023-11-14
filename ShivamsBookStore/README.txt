@@ -177,3 +177,5 @@ Date : 11/14/2023
 1147 > added Category to dropdown. 
 
 1208 > added js file and icons.
+
+1224 > making the delete and edit button functional by adding code in it. 
