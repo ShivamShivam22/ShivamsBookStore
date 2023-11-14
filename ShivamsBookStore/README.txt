@@ -169,3 +169,5 @@ Date : 11/14/2023
 0949 > added controller folder in Areas/Admin and added empty mvc controller. 
 
 1005 > modified the code to use the IUnitofWork from .DataAccess.
+
+1054 > Added a new folder category in Areas/View.
