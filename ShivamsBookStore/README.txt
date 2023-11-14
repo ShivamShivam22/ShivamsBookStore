@@ -171,3 +171,5 @@ Date : 11/14/2023
 1005 > modified the code to use the IUnitofWork from .DataAccess.
 
 1054 > Added a new folder category in Areas/View.
+
+1118 > Added empty razor into category and modified it.
