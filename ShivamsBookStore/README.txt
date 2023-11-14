@@ -141,3 +141,5 @@ date : 11/13/2023
 0928 > included the using statement and fixed the error with Implement interface.
 
 0937 > modified the code to create the constructor and dependency injection (DI).
+
+0946 > created individual repos for category and all potential models to be added in the future.
