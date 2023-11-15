@@ -55,16 +55,18 @@ namespace ShivamsBookStore.Areas.Admin.Controllers
             }
         
         public IActionResult Delete(int id)
-           {
-                var objFromDb = _unitOfWork.Category.Get(id);
-                if(objFromDb == null)
-                {
-                    return Json(new { success = false, message = "Error white deleting" });
-                }
-                _unitOfWork.Category.Remove(objFromDb);
-                _unitOfWork.Save();
-                return Json(new { success = true, message = "Delete successful" });
-         }
+        {
+            var objFromDb = _unitOfWork.Category.Get(id);
+            if (objFromDb == null)
+            {
+                return Json(new { success = false, message = "Error white deleting" });
+            }
+            _unitOfWork.Category.Remove(objFromDb);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete successful" });
+        }
+                
+         
             #endregion 
     }
 }
