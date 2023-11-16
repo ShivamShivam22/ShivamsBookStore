@@ -19,8 +19,24 @@ namespace ShivamsBookStore.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View();  
         }
+
+        public IActionResult Upsert(int? id)
+        {
+            Category category = new Category();
+            if (id == null)
+            {
+                return View(category);
+            }
+            category = _unitOfWork.Category.Get(id.GetValueOrDefault());
+            if (category == null)
+            {
+                return NotFound();
+            }
+            return View(category);
+        }
+
             // use HTTP POST to define the post-action method
             [HttpPost]
             [ValidateAntiForgeryToken]

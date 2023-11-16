@@ -185,3 +185,7 @@ Date : 11/14/2023
 0141 > modified category controller.cs
 
 0152 > modified Upsert.html.
+
+11/15/2023
+
+1051 > fixed errors (typos and missing code in CategoryController.cs).
