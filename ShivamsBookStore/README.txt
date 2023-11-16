@@ -1,6 +1,7 @@
 ﻿Name: Shivam Shivam
 ID  : 0829889
 Project Name : ShivamsBookStore
+Date: 10/30/2023
 
 Start Time 0841
 
@@ -104,7 +105,7 @@ Date: 11/11/2023
 
 0232 > changed to the correct project and added migration again.
 
-0233 > Migration Name : 20231111193126_AddDefaultIdentityMigration.
+0233 > Migration Name : 20231112021957_AddCategoryToDb.cs.
 
 0233 > tried to update database but failed.
 
