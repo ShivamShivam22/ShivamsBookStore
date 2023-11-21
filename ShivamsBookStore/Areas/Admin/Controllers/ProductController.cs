@@ -63,11 +63,11 @@ namespace ShivamsBookStore.Areas.Admin.Controllers
 
 
         // use HTTP POST to define the post-action method
-        /*[HttpPost]
+        [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Product product)
         {
-            if (ModelState.IsValid)
+            if (ModelState.IsValid)     // check all validations in the model (eg. Name Required) to increase security
             {
                 if (product.Id == 0)
                 {
@@ -79,10 +79,10 @@ namespace ShivamsBookStore.Areas.Admin.Controllers
                     _unitOfWork.Product.Update(product);
                 }
                 _unitOfWork.Save();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Index));         // to see the categories
             }
             return View(product);
-        }*/
+        }
 
 
 

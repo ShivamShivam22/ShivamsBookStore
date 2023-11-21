@@ -238,3 +238,5 @@ Date: 11/21/2023
 0605 > Modified Product/Upsert and added a textbox to textara.
 
 0609 > Created a folder and subfolder images/products in wwwroot.
+
+0623 > fixed coverType it was providing category option, Fixed by renaming CatrogryId to CoverTypeId and cateforyList to CoverTypeList.
