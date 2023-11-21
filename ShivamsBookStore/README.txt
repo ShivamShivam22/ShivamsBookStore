@@ -208,3 +208,5 @@ Date: 11/21/2023
 0218 > Lauched the site and its working.
 
 0227 > Added Product.cs in Models.
+
+0236 > Added code to build the blueprint of this class and making sure it's "public" and that any errors are resolved.
