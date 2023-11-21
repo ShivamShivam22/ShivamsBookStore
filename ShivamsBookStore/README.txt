@@ -3,6 +3,8 @@ ID  : 0829889
 Project Name : ShivamsBookStore
 Date: 10/30/2023
 
+PART 1
+
 Start Time 0841
 
 0841 > Created the project and git hub repository. 
@@ -190,3 +192,9 @@ Date : 11/14/2023
 11/15/2023
 
 1051 > fixed errors (typos and missing code in CategoryController.cs).
+
+PART 3
+
+Date: 11/21/2023
+
+0110 > Added CoverType.cs in models and modified it. 
