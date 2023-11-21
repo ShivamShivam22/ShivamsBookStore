@@ -230,3 +230,5 @@ Date: 11/21/2023
 0523 > modified ProductVM class and installed Microsoft.AspNetCore.Hosting package.
 
 0541 > modified ProductController.
+
+0552 > modified ProductController and Product.js.ran the application and its working.
