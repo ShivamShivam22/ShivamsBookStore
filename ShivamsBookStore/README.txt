@@ -212,3 +212,7 @@ Date: 11/21/2023
 0236 > Added code to build the blueprint of this class and making sure it's "public" and that any errors are resolved.
 
 0242 > Added reference to the new Products to ApplicationDbContext.cs file.
+
+0245 > Added product Migration and updated the database.
+
+0245 > Product Migration Name:  20231121074511_addProductToDb .
