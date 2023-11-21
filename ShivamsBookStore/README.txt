@@ -216,3 +216,5 @@ Date: 11/21/2023
 0245 > Added product Migration and updated the database.
 
 0245 > Product Migration Name:  20231121074511_addProductToDb .
+
+0254 > updated the product class so the Title, ISBN and Author are Required and created a new migration addValidationToProduct and updated the database.
