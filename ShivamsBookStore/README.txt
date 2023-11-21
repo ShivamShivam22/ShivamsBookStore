@@ -218,3 +218,5 @@ Date: 11/21/2023
 0245 > Product Migration Name:  20231121074511_addProductToDb .
 
 0254 > updated the product class so the Title, ISBN and Author are Required and created a new migration addValidationToProduct and updated the database.
+
+0445 > Added IProductRepository,ProductRepository, and in unitofwork and Iunitofwork too, also added product controller,js,index View,Upsert.

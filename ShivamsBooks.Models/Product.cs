@@ -31,5 +31,6 @@ namespace ShivamsBooks.Models
         public int CoverTypeId { get; set; }
         [ForeignKey("CategoryId")]
         public CoverType CoverType { get; set; }
+
     }
 }
