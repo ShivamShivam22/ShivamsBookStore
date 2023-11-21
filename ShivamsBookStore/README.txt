@@ -224,3 +224,5 @@ Date: 11/21/2023
 0502 > Fixed Typos.
 
 0508 > added IWebHostEnvironment call and its using statement to the Microsoft.AspNetCore.Hosting.
+
+0512 > Added ProductVM in the Models.
