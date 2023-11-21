@@ -222,3 +222,5 @@ Date: 11/21/2023
 0445 > Added IProductRepository,ProductRepository, and in unitofwork and Iunitofwork too, also added product controller,js,index View,Upsert.
 
 0502 > Fixed Typos.
+
+0508 > added IWebHostEnvironment call and its using statement to the Microsoft.AspNetCore.Hosting.
