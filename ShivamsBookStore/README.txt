@@ -226,3 +226,5 @@ Date: 11/21/2023
 0508 > added IWebHostEnvironment call and its using statement to the Microsoft.AspNetCore.Hosting.
 
 0512 > Added ProductVM in the Models.
+
+0523 > modified ProductVM class and installed Microsoft.AspNetCore.Hosting package.
