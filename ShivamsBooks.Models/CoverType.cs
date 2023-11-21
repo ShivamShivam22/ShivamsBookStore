@@ -12,7 +12,7 @@ namespace ShivamsBooks.Models
         [Key]
         public int Id { get; set; }
 
-        [Display(Name = "Cover Name")]
+        [Display(Name = "CoverType Name")]
         [Required]
         [MaxLength(50)]
         public string Name { get; set; }
