@@ -240,3 +240,5 @@ Date: 11/21/2023
 0609 > Created a folder and subfolder images/products in wwwroot.
 
 0623 > fixed coverType it was providing category option, Fixed by renaming CatrogryId to CoverTypeId and cateforyList to CoverTypeList.
+
+0733 > Run and Tested.

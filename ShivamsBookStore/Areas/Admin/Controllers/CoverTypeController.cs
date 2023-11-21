@@ -69,7 +69,7 @@ namespace ShivamsBookStore.Areas.Admin.Controllers
             var allObj = _unitOfWork.CoverType.GetAll();
             return Json(new { data = allObj });
         }
-
+        [HttpDelete]
         public IActionResult Delete(int id)
         {
             var objFromDb = _unitOfWork.CoverType.Get(id);
