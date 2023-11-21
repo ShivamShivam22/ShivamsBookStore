@@ -200,3 +200,5 @@ Date: 11/21/2023
 0110 > Added CoverType.cs in models and modified it. 
 
 0143 > Added CoverTypeRepository.cs class, ICoverTypeRepository.cs. added both of them to UnitOfWork and IUnitOfWork and Created Migration and updated db.
+
+0204 > Added CoverType to NavBar, Added CoverTypeController, CoverType Index,Upsert.
