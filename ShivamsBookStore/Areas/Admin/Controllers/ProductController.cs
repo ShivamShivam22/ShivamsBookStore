@@ -6,6 +6,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ShivamsBooks.Models;
+using ShivamsBooks.Models.ViewModels;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace ShivamsBookStore.Areas.Admin.Controllers
 {
@@ -26,23 +28,42 @@ namespace ShivamsBookStore.Areas.Admin.Controllers
             return View();
         }
 
-        public IActionResult Upsert(int? id)
+        public IActionResult Upsert(int? id)                // get action method for Upsert
         {
-            Product product = new Product();
+            ProductVM productVM = new ProductVM()
+            {
+                Product = new Product(),
+                CategoryList = _unitOfWork.Category.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+                CoverTypeList = _unitOfWork.CoverType.GetAll().Select(i => new SelectListItem
+                {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
+                }),
+            };          // using ShivamsBook.Models;
             if (id == null)
             {
-                return View(product);
+                // this is for create
+                return View(productVM);
             }
-            product = _unitOfWork.Product.Get(id.GetValueOrDefault());
-            if (product == null)
+            // this for the edit
+
+            productVM.Product = _unitOfWork.Product.Get(id.GetValueOrDefault());
+            if (productVM.Product == null)
             {
                 return NotFound();
             }
-            return View(product);
+            return View(productVM);
         }
+        
+
+
 
         // use HTTP POST to define the post-action method
-        [HttpPost]
+        /*[HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Product product)
         {
@@ -61,7 +82,9 @@ namespace ShivamsBookStore.Areas.Admin.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(product);
-        }
+        }*/
+
+
 
 
 
