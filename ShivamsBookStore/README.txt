@@ -244,3 +244,12 @@ Date: 11/21/2023
 0733 > Run and Tested.
 
 1110 > Updated Database.
+
+Part 4
+
+Date: 11/28/2023
+
+01:30 > Created Product complete.
+
+01:32 > Added Books.
+
