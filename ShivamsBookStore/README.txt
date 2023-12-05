@@ -1,7 +1,7 @@
 ﻿Name: Shivam Shivam
 ID  : 0829889
 Project Name : ShivamsBookStore
-Date: 10/30/2023
+Date: 2023/10/30
 
 PART 1
 
@@ -99,7 +99,7 @@ Start Time 0841
 
 PART 2 
 
-Date: 11/11/2023
+Date: 2023/11/11
 
 0224 > Modified the database name and saved. 
 
@@ -167,7 +167,7 @@ date : 11/13/2023
 
 1147 > modified the code.
 
-Date : 11/14/2023
+Date : 2023/11/14
 
 0949 > added controller folder in Areas/Admin and added empty mvc controller. 
 
@@ -189,7 +189,7 @@ Date : 11/14/2023
 
 0152 > modified Upsert.html.
 
-11/15/2023
+2023/11/15
 
 1051 > fixed errors (typos and missing code in CategoryController.cs).
 
@@ -247,9 +247,15 @@ Date: 11/21/2023
 
 Part 4
 
-Date: 11/28/2023
+Date: 2023/11/28
 
 01:30 > Created Product complete.
 
 01:32 > Added Books.
+
+Part 5 
+
+Date: 2023/12/05
+
+03:09 > Did everything I could've fixing the errors.
 
